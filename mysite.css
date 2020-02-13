@@ -1,0 +1,75 @@
+.center{
+    text-align: center;
+}
+    
+.special{
+    color: slateblue;
+    font-size: small;
+}
+
+ 
+    
+h1{
+    padding-top: 75px;
+    
+}
+     
+body{
+    font-family:'Quicksand', sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding-left: 150px;
+    padding-top: 25px;
+    background-image: url("https://raw.githubusercontent.com/gloomel/mns/master/background.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 350px 525px;
+    letter-spacing: 3px;
+    background-attachment: fixed;
+      
+}
+  
+#contentBody{
+    background-color: white;
+    width: 700px;
+    overflow: scroll;
+    clear: left;
+    box-shadow:  10px 10px 5px gray, 0px 0px 0px white;
+}
+  
+header{background-color: RoyalBlue; height: 10px;}
+  
+#nav{
+    list-style-type: none;
+    padding: 0px;
+    
+}
+    
+#nav li{
+    float: left;
+    text-align: center;
+    width: 233.3px;
+        
+}
+  
+#nav li a{
+    display: block;
+    font-size: 10px;
+    padding: 10px 10px;
+    border-left: 3px dotted MediumVioletRed;
+    text-decoration: none;
+    color: black;
+}
+    
+#nav li a:hover{
+    color: palevioletred;
+}
+    
+span{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 9px;
+    color: mediumslateblue;
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+}

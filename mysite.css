@@ -25,12 +25,13 @@ body{
     background-repeat: no-repeat;
     background-size: 350px 525px;
     background-attachment: fixed;
-      
+    overflow: hidden;
 }
   
 #contentBody{
     background-color: white;
     width: 700px;
+    height: 615px;
     overflow: scroll;
     clear: left;
     box-shadow:  10px 10px 5px gray, 0px 0px 0px white;
@@ -66,7 +67,7 @@ header{background-color: RoyalBlue; height: 10px;}
 
 .active{
     color: Gold;
-    background-image: linear-gradient(to right, mediumslateblue,palevioletred, white);
+    background-image: linear-gradient(to right,slateblue,palevioletred, white);
 }
     
 span{
@@ -84,4 +85,12 @@ img{
     padding: 10px;
     border-radius: 50%;
     float: right;
+}
+
+#contentlink{
+    background-image: linear-gradient(to top,slateblue, palevioletred, white 50%);
+}
+
+#contentlink:hover{
+    background-image: linear-gradient(to top,slateblue,palevioletred);
 }
